@@ -17,6 +17,7 @@
 |   |     ├── db.py
 |   |     ├── main.py
 |   ├── tests
+|   ├── .env 
 |   ├── README.md
 |   ├── requirements.txt
 └── ...
@@ -40,5 +41,11 @@ $ pip3 install -r requirements.txt
 
 ```
 $ uvicorn app.main:app --reload
+
+```
+#### testes ?
+
+```
+$ pytest
 
 ```
