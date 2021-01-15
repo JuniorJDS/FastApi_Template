@@ -7,10 +7,12 @@
 ├── FastAPI_Template
 |   ├── app
 |   |     ├── core
+|   |     |  ├── config.py
+|   |     |  ├── security.py
 |   |     ├── crud
 |   |     ├── models
 |   |     ├── routers
-|   |     |   ├── v1          #versoes
+|   |     |   ├── v1          
 |   |     ├── schemas
 |   |     ├── db.py
 |   |     ├── main.py
