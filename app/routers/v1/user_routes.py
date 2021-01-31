@@ -9,4 +9,4 @@ router = APIRouter(
 
 @router.get('')
 async def hello_world():
-    return {'message': settings.API_V1}#'new hello world'}
+    return {'message': 'Teste git PC2'}
